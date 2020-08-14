@@ -58,7 +58,6 @@ public class Rectangle {
         double t1 = y + (height / 2);    // top of this rect
         double b2 = b.y - (b.height / 2);  // bottom of b rect
         double t2 = b.y + (b.height / 2);  // top of b rect
-        // (b1 && t2 < t1 && l2 > l1 && r2 < r1)
 
         if ((l1 < l2 && r1 > r2) && (b1 < b2 && t1 > t2)) {
             return true;
