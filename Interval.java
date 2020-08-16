@@ -4,12 +4,11 @@
 
  public class Interval
  ______________________________________________________________
- Interval(double min, double max)
+         Interval(double min, double max)
+         
  boolean contains(double x)          is x in this interval?
  boolean intersects(Interval b)      do this interval and b intersects?
- String toStr()                   string representation
-
-
+ String toStr()                      string representation
 
  */
 
